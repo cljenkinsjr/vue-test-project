@@ -1,19 +1,22 @@
 <script>
 import Products from './components/Products.vue';
 import Rating from './components/Rating.vue';
+import UserForm from './components/UserForm.vue';
 
 export default{
   components:{
-    Products
+    //Products
     //Rating
+    UserForm
   }
 }
 </script>
 
 <template>
-  <div>
+  <UserForm />
+  <!-- <div>
     <Products />
-  </div>
+  </div> -->
   <!-- <Rating initialRating="1" />
   <Rating initialRating="2" />
   <Rating initialRating="3" />
